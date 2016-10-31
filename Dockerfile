@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
     git \
     libcurl4-gnutls-dev \
     libgnutls-dev \
-    default-jre \
-    default-jdk \
+    openjdk-8-jre \
+    openjdk-8-jdk \
     r-base
 
 RUN git clone --recursive https://github.com/cgrlab/gatk-protected.git

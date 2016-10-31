@@ -28,3 +28,4 @@ dependency-reduced-pom.xml
 public/external-example/target/
 .Rproj.user
 *Rproj
+*.Rhistory
