@@ -15,7 +15,7 @@ RUN apt-get update && \
     git \
     less \
     lynx \
-    hdfview
+    hdfview \
     aufs-tools \
     automake \
     bedtools \
