@@ -53,3 +53,4 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 && \
 WORKDIR /opt
 
 RUN git clone --recursive https://github.com/cgrlab/gatk-protected.git
+RUN tar -xjvf /opt/gatk-protected/GenomeAnalysisTK-3.6.tar.bz2 
